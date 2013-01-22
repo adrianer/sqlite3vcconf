@@ -5,14 +5,20 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite3", "sqlite3.vcproj",
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Release|Win32 = Release|Win32
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release64|x64 = Release64|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1133FFAC-8F71-499D-A728-EFB6F75DDF8A}.Debug|Win32.ActiveCfg = Debug|Win32
 		{1133FFAC-8F71-499D-A728-EFB6F75DDF8A}.Debug|Win32.Build.0 = Debug|Win32
+		{1133FFAC-8F71-499D-A728-EFB6F75DDF8A}.Debug|x64.ActiveCfg = Debug|Win32
+		{1133FFAC-8F71-499D-A728-EFB6F75DDF8A}.Debug|x64.Build.0 = Debug|Win32
 		{1133FFAC-8F71-499D-A728-EFB6F75DDF8A}.Release|Win32.ActiveCfg = Release|Win32
 		{1133FFAC-8F71-499D-A728-EFB6F75DDF8A}.Release|Win32.Build.0 = Release|Win32
+		{1133FFAC-8F71-499D-A728-EFB6F75DDF8A}.Release64|x64.ActiveCfg = Release64|Win32
+		{1133FFAC-8F71-499D-A728-EFB6F75DDF8A}.Release64|x64.Build.0 = Release64|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
